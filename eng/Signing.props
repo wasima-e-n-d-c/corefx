@@ -16,5 +16,8 @@
   <PropertyGroup>
     <!-- We do not build packages for NetFx. -->
     <AllowEmptySignList Condition="'$(TargetGroup)' == 'netfx'">true</AllowEmptySignList>
+
+    <!-- Enable SignTool to perform strong name check. -->
+    <DoStrongNameCheck>true</DoStrongNameCheck>
   </PropertyGroup>
 </Project>
