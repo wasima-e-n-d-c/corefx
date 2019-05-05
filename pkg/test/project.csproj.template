@@ -4,6 +4,7 @@
     <TargetFramework>{TFM}</TargetFramework>
     <RuntimeIdentifiers>{RIDs}</RuntimeIdentifiers>
     <TestPackageId>{PackageId}</TestPackageId>
+    <NugetPackageId>{PackageId}</NuGetPackageId>
     <TestPackageVersion>{PackageVersion}</TestPackageVersion>
 
     <SupportFilesDir Condition="'$(SupportFilesDir)' == ''">$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), Directory.Build.props))\support</SupportFilesDir>
